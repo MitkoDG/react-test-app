@@ -5,17 +5,32 @@ const MainNavigation = () => {
 
     return (
         <header className={classes.header}>
-            <div className={classes.logo}>Greate Quotes</div>
-            <nav className={classes.nav}>
+            <div>DDG Projects</div>
+            <nav>
                 <ul>
                     <li>
-                        <NavLink to='/quotes' activeClassName={classes.active}>
-                            All Quotes
+                        <NavLink to='/'>
+                            Home
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to='/new-quote' activeClassName={classes.active}>
-                            Add Quote
+                        <NavLink to='/gallery'>
+                            Gallery
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/contact'>
+                            Contact
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/about'>
+                            About
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/offers'>
+                            Offers
                         </NavLink>
                     </li>
                 </ul>

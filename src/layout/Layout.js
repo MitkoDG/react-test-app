@@ -4,12 +4,7 @@ import MainNavigation from "./MainNavigation"
 const Layout = () => {
 
     return (
-        <Fragment>
             <MainNavigation />
-            <main>
-
-            </main>
-        </Fragment>
     )
 }
 

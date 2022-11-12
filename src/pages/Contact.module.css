@@ -6,11 +6,11 @@
 }
 
 .form_container h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .form_container button {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .form_control input,
@@ -29,14 +29,13 @@
 }
 
 .form_control input:focus {
-    outline: none;
-    border-color: #240370;
-    background-color: #e0d4fd;
-  }
+  outline: none;
+  border-color: #240370;
+  background-color: #e0d4fd;
+}
 
-  .form_control textarea {
-    height: 100px;
-    width: 20rem;
-    font-size: 1rem;
-  }
- 
+.form_control textarea {
+  height: 100px;
+  width: 20rem;
+  font-size: 1rem;
+}

@@ -48,15 +48,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  /* .header ul {
+  .header ul {
     display: flex;
     flex-wrap: wrap;
-  } */
-  nav {
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 160px;
-    z-index: 1;
   }
+
 }

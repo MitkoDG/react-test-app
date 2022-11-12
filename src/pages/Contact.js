@@ -18,19 +18,19 @@ const Contact = () => {
     <div className={classes.form_container}>
       <h2>Contact Us</h2>
       <form onSubmit={onSubmit}>
-        <div>
+        <div className={classes.form_control}>
           <label className="form-label" htmlFor="name">
             Name
           </label>
           <input type="text" id="name" required />
         </div>
-        <div>
+        <div className={classes.form_control}>
           <label className="form-label" htmlFor="email">
             Email
           </label>
           <input type="email" id="email" required />
         </div>
-        <div>
+        <div className={classes.form_control}>
           <label htmlFor="message">
             Message
           </label>

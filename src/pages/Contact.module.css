@@ -1,13 +1,42 @@
 .form_container {
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 20px 70px;
-  background-color: #9ddbdf;
+  width: 90%;
+  max-width: 43rem;
+  padding: 1rem;
+  margin: 5rem auto;
 }
 
-.form_container form {
+.form_container h2 {
+    margin-bottom: 20px;
 }
 
-.form_container input {
-    min-width: 300px;
+.form_container button {
+    margin-top: 20px;
 }
+
+.form_control input,
+.form_control label {
+  display: block;
+}
+
+.form_control input,
+.form_control select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.form_control input:focus {
+    outline: none;
+    border-color: #240370;
+    background-color: #e0d4fd;
+  }
+
+  .form_control textarea {
+    height: 100px;
+    width: 20rem;
+    font-size: 1rem;
+  }
+ 

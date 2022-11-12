@@ -1,6 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
+import GalleryView from '../component/GalleryView/GalleryView';
 
-function Home() {
+
+const Home = () => {
     let location = useLocation()
     console.log(location.pathname);
     return (
@@ -15,7 +17,8 @@ function Home() {
             <p>Nullam sed enim vel nulla gravida dignissim eu vel nisl. Aenean risus massa, luctus in nulla imperdiet, mattis posuere dolor. Donec non maximus erat. Praesent ac venenatis felis. Phasellus consectetur ultrices est, nec dictum augue volutpat nec. In iaculis felis lectus, vel cursus lectus ultrices vel. Ut finibus lacus eu sollicitudin volutpat. Sed gravida rutrum urna, eu consectetur tortor tempus id. Mauris semper vulputate tellus, porta hendrerit tellus sagittis at. Cras porta dui a egestas maximus. Sed porta dapibus convallis.</p>
             <p>Morbi at justo vitae arcu pellentesque sodales vel quis turpis. Ut ornare id ex et molestie. Etiam porttitor nunc a nisi vulputate, vel molestie nulla tincidunt. Aliquam erat volutpat. Cras leo justo, rhoncus id velit sed, tincidunt molestie sapien. Ut mollis vehicula finibus. Mauris interdum blandit vestibulum. Etiam orci ipsum, ullamcorper id fringilla a, pulvinar sollicitudin turpis. Sed non ornare sem. Vestibulum metus nulla, facilisis eget sem dictum, posuere ornare elit. Donec vulputate nisi lorem, vitae lacinia urna convallis in. Nunc sed metus tempus, ultrices ante et, convallis massa.</p>
 
-            {/* 4 boxes from Gallery pages */}
+            <h2>Recent photos</h2>
+            <GalleryView pageSize={4} />
         </div>
     );
 }

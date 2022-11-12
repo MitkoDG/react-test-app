@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom"
+import classes from './Button.module.css'
 
 function Button() {
     const location = useLocation()
@@ -8,7 +9,7 @@ function Button() {
     }
     return (
         <div>
-            <button onClick={printName}>Page name</button>
+            <button onClick={printName} className={classes.button}>Page name</button>
         </div>
     )
 }

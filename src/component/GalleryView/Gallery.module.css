@@ -1,0 +1,21 @@
+.picCard {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.picCard img {
+  margin: 5px;
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 4px #ccc;
+}
+
+.picCard img:hover {
+  transform: scale3d(1.1, 1.1, 1);
+  cursor: pointer;
+  transition: transform 1s;
+  box-shadow: none;
+}

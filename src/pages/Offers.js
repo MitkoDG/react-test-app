@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Offers() {
+const Offers = () => {
     return (
         <div>
             <h1>This is the offers page</h1>

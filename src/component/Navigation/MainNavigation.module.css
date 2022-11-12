@@ -5,11 +5,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .header nav {
   height: 100%;
+}
+
+.header div {
+  height: 5rem;
+}
+.header div img {
+  height: 100%;
+  border: none;
 }
 
 .header ul {
@@ -38,4 +45,18 @@
   color: #95bcf0;
   padding-bottom: 0.25rem;
   border-bottom: 4px solid #95bcf0;
+}
+
+@media screen and (max-width: 600px) {
+  /* .header ul {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+  nav {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 160px;
+    z-index: 1;
+  }
 }

@@ -1,0 +1,13 @@
+.form_container {
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 70px;
+  background-color: #9ddbdf;
+}
+
+.form_container form {
+}
+
+.form_container input {
+    min-width: 300px;
+}

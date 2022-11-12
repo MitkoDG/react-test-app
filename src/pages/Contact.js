@@ -1,4 +1,5 @@
 import React from 'react'
+import classes from './Contact.module.css'
 
 const Contact = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
@@ -14,8 +15,8 @@ const Contact = () => {
     console.log(conFom)
   }
   return (
-    <div>
-      <h2>Contact Form</h2>
+    <div className={classes.form_container}>
+      <h2>Contact Us</h2>
       <form onSubmit={onSubmit}>
         <div>
           <label className="form-label" htmlFor="name">

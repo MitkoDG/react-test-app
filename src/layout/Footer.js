@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <footer className={classes.site_footer}>
-            <p>Blog Title 2022 &copy; All right reserved</p>
+            <p>DDG Projects 2022 &copy; All right reserved</p>
             <Button />
         </footer>
     )

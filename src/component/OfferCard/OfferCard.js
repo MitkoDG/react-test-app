@@ -10,7 +10,7 @@ const OfferCard = (props) => {
             </div>
             <div className={classes.card_body}>
                 <p className={classes.date}>Special deal end soon</p>
-                <h2 className={classes.offer_name}>{props.name}</h2>
+                <h2 className={[classes.offer_name, classes.hover_underline_animation].join(' ') }>{props.name}</h2>
                 <p className={classes.offer_body}>{props.description}</p>
                 <button>Buy NOW</button>
             </div>

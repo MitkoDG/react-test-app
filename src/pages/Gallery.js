@@ -1,4 +1,3 @@
-
 import GalleryView from '../component/GalleryView/GalleryView';
 
 

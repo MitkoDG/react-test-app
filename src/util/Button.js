@@ -3,7 +3,6 @@ import classes from './Button.module.css'
 
 function Button() {
     const location = useLocation()
-    console.log(location);
     const printName = () => {
         switch (location.pathname) {
             case "/":
@@ -22,7 +21,7 @@ function Button() {
                 console.log('This is the Offers page! =>', location.pathname);
                 break;
             default:
-                console.log('No page found', location.pathname);
+                console.log('Unknown page! =>', location.pathname);
                 break;
         }
     }

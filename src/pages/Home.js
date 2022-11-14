@@ -5,7 +5,7 @@ const Home = () => {
     const numberOfPhotosToRender = 4;
     return (
         <div>
-            <h1>This is the home page</h1>
+            <h1>Home page</h1>
             
             {/* add baner */}
             {/* <Link to="about">Click to view our about page</Link>

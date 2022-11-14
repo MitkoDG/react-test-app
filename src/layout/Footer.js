@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <footer className={classes.site_footer}>
-            <p>DDG Projects 2022 &copy; All right reserved</p>
+            <p><a href='https://dimitargegov.com/' target='_blank' rel="noreferrer">DDG Projects</a> 2022 &copy; All right reserved</p>
             <Button />
         </footer>
     )

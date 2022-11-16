@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import classes from './MainNavigation.module.css'
 import logo from '../../assets/images/ddg-projects.jpg'
 const MainNavigation = () => {
@@ -6,7 +6,7 @@ const MainNavigation = () => {
     return (
         <header className={classes.header}>
             {/* <div>DDG Projects</div> */}
-            <div><img src={logo} alt='Logo'></img></div>
+            <div><Link to="/"><img src={logo} alt='Logo'></img></Link></div>
             <nav>
                 <ul>
                     <li>

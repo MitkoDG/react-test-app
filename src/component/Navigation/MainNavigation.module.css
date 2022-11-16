@@ -39,9 +39,9 @@
   text-decoration: none;
 }
 
-.header a:hover,
-.header a:active,
-.header a.active {
+.header :not(:first-child) a:hover,
+.header :not(:first-child) a:active,
+.header :not(:first-child) a.active {
   color: #3f83db;
   padding-bottom: 0.25rem;
   border-bottom: 4px solid #95bcf0;

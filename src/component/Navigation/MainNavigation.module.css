@@ -17,6 +17,7 @@
 .header div img {
   height: 100%;
   border: none;
+  margin-left: 2rem;
 }
 
 .header ul {

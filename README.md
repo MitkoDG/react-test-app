@@ -24,6 +24,6 @@ Part Four:
 - Please style the site as you wish and make it responsible.(recommended to use sass, scss)
 - Add a button and on every click print to the console the name of the page.
 
-Check the [**Demo website**](https://admolite.dimitargegov.website/)
+Check the [**Demo website**](https://admolite.dimitargegov.site/)
 
 [![ScreenShot](https://github.com/MitkoDG/react-test-app/blob/main/screenshot.jpg "Login screen page")](https://admolite.dimitargegov.site/)
